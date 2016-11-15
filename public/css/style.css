@@ -1,0 +1,41 @@
+.new-post{
+	padding :10px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.new-post header,
+.post header {
+
+	margin-bottom:20px;
+}
+
+.posts .post{
+
+	padding-left:10px;
+	border-left: 2px solid #ce310a;
+	margin-bottom: 30px;
+
+}
+.post .info{
+	color: #aaa;
+	font-style: italic;
+}
+.success{
+	border: 1px solid green;
+	background-color: #c3eac3;
+	color: green;
+}
+.error{
+	border: 1px solid red;
+	background-color: #f9cfcf;
+	color: red;
+}
+.error ul{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+.error,
+.success{
+	text-align: center;
+}
